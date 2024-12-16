@@ -1,0 +1,37 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvEmployeeCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Code"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/etEmployeeCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee Code"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Main"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
